@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Bathroom Buddy-Rewards</title>
+    <link rel="stylesheet" type="text/css" href="styles/sidebarstyle.css">
+        <script type="text/javascript" src="scripts/jquery-3.4.1.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+    <script src="scripts/rewardscript.js"></script>
+
+    <!-- bootstrap -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <script src="scripts/sidebarscript.js"></script>
+    <script src="scripts/progressbar.min.js"></script>
+    <script src="scripts/progressbar.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/rewardstyle.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+
+
+
+
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/themes/material.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+ <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase.js"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+        <body>
+            <!-- Popper.JS -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+            <!-- Bootstrap JS -->
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+
+           <!-- <img src="pics/ocean.jpg" id=background> -->
+
+
+
+
+           <div class="wrapper">
+    <div class="sidebar">
+        <h2>Dashboard</h2>
+        <ul>
+            <li><a href="dashboard.html"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="weekly.html"><i class="fa fa-bar-chart"></i> Weekly Data</a></li>
+            <li><a href="about.html"><i class="fas fa-address-card"></i>About</a></li>
+           
+            <li><a onclick="logout()"><i class="fas fa-map-pin"></i>Logout</a></li>
+
+        </ul> 
+      
+    </div>
+</div>
+
+
+ <div id="top_x_div" style="width: 500px; height: 500px; position: relative; left: 23em; top: 2em;"></div>
+
+          
+                    <div id="rewardwrapper" style="position: relative;top: 5em; left: 47em;">
+                        <div class="points" id="rewardlabel">Rewards Points: </div>
+                        <div id="mathlabel"></div>
+                        <div id="progressbar"></div>
+                    </div>
+
+          
+
+
+          <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+   var firebaseConfig = {
+    apiKey: "AIzaSyBPb-BRpBEBBVb-Q6lm3CTJJwxgNDx0VVg",
+    authDomain: "gym-buddy-8eb92.firebaseapp.com",
+    databaseURL: "https://gym-buddy-8eb92-default-rtdb.firebaseio.com",
+    projectId: "gym-buddy-8eb92",
+    storageBucket: "gym-buddy-8eb92.appspot.com",
+    messagingSenderId: "297095124813",
+    appId: "1:297095124813:web:26bb78bb4f9f022d7e4904",
+    measurementId: "G-C2KHHB0P0W"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+         
+        
+            
+        </body>
+</html>

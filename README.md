@@ -1,9 +1,9 @@
 # Gym-Buddy
 
 <p float="left">
-  <img src="/setup.jpg" width="100" />
-  <img src="/pullup.jpg" width="100" /> 
-  <img src="/dashboard.jpg" width="100" />
+  <img src="/setup.jpg" width="300" />
+  <img src="/pullup.jpg" width="300" /> 
+  <img src="/dashboard.jpg" width="300" />
 </p>
 
 ## Inspiration :
